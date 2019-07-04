@@ -1,0 +1,13 @@
+This is my Java solution to problem 2. 
+My design scheme is having an Item object to represent items in the store and using an ItemList to contain the Items in an organized fashion. 
+The input is passed in as arguments to the Receipt_driver class, the first argument being the list of items that have sales tax, and the second argument being the raw input represented in the test cases.
+The Receipt_driver class is responsible for reading the arguments and parsing the files into items and adding them to the item list.
+The output of the program is simply console output.
+
+My assumptions are as follows. 
+The list of taxed items should be easily changed, so I made it so that you can change it outside of the program and simply pass it into the driver. 
+The list of taxed items should be all in lower case, each item separated by lines. 
+The taxed items in the test cases are "bottle of perfume" and "music cd".
+
+The input will always follow the same format where the amount of the item is the first number and the base price of a single item is the last number on each line. 
+The term "Imported" will always be the first word after the amount of the item.
